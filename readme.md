@@ -11,17 +11,17 @@ Converts data to a html table. It is
 - Setting ui and battery included
 
 ## DEMO: 
-- Documentation: https://alan-khosro.github.io/web-table/
-- Simple Usage: https://alan-khosro.github.io/web-table/examples/simple-usage.html
-- Usage with options: https://alan-khosro.github.io/web-table/examples/options-usage-example.html
-- Advanced Usage: https://alan-khosro.github.io/web-table/examples/advanced-usage.html
+- [Documentation](https://alan-khosro.github.io/web-table/)
+- [Simple Usage](https://alan-khosro.github.io/web-table/examples/simple-usage.html)
+- [Usage with options](https://alan-khosro.github.io/web-table/examples/options-usage-example.html)
+- [Advanced Usage](https://alan-khosro.github.io/web-table/examples/advanced-usage.html)
 
 
 
 ### Simple Usage
 Import library and initiate the table with a data url to populate it
 
-- View source code example: https://raw.githubusercontent.com/alan-khosro/web-table/main/examples/simple-usage.html
+- [View source code example](https://raw.githubusercontent.com/alan-khosro/web-table/main/examples/simple-usage.html)
 
 
 ```html
@@ -36,7 +36,7 @@ Import library and initiate the table with a data url to populate it
 User can use its built-in `Settings` ui to tweak irs colors, data source, etc.
 
 ### options
-- View source code for options usage: https://raw.githubusercontent.com/alan-khosro/web-table/main/examples/options-usage-example.html
+- [View source code for options usage](https://raw.githubusercontent.com/alan-khosro/web-table/main/examples/options-usage-example.html)
 
 you can pass optional attributes:
 - datatype:
@@ -75,7 +75,7 @@ you can pass optional attributes:
 ```
 
 ## Advanced Usage
-- View source code for advanced usage: https://raw.githubusercontent.com/alan-khosro/web-table/main/examples/advanced-usage.js
+- [View source code for advanced usage](https://raw.githubusercontent.com/alan-khosro/web-table/main/examples/advanced-usage.js)
 
 You can initiate it with no data url and then call its `populate` method in your js file.
 It is useful for advanced use case when you need to prepare your data before populating the table.
