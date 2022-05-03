@@ -1,0 +1,20 @@
+
+	<h1>Web Table</h1>
+	<center>Click on Settings to tweak it</center>
+	<center>Press ctr+u (Safari: option+cmd+u) on your browser to see the source code</center>
+
+	<script src="../dist/web-table.min.js" type="module"></script>
+
+	<web-table 
+		url="./owid-covid-latest.csv" 
+		datatype="csv" 
+		delim="," 
+		accent="255, 100, 100"
+		columns="location,total_cases_per_million,new_cases_smoothed,total_deaths_per_million,new_deaths_smoothed"
+		renames="loc,case_rate,new_cases,deaths_rate,new_deaths"
+	></web-table>
+
+
+	The height of this table is limited to 30 by css <br>
+	Click on the table and scroll to see the rest of rows
+
