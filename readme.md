@@ -98,3 +98,5 @@ document.querySelector("simple-table").populate(
 Technical Debt:
 - [ ] when sorting, it ignores filter values (YAGNI)
 - [ ] rewrite updateData method: refactor to take into account updating by user and programmer
+
+## ENDgit
