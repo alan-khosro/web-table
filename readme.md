@@ -16,7 +16,10 @@ Converts data to a html table. It is
 - [Usage with options](https://alan-khosro.github.io/web-table/examples/options-usage-example.html)
 - [Advanced Usage](https://alan-khosro.github.io/web-table/examples/advanced-usage.html)
 
-
+## CDN
+```html
+<script src="https://cdn.jsdelivr.net/gh/alan-khosro/web-table/dist/web-table.min.js" type="module"></script>
+```
 
 ### Simple Usage
 Import library and initiate the table with a data url to populate it
