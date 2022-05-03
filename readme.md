@@ -99,5 +99,3 @@ It is useful for advanced use case when you need to prepare your data before pop
 Technical Debt:
 - [ ] when sorting, it ignores filter values (YAGNI)
 - [ ] rewrite updateData method: refactor to take into account updating by user and programmer
-
-## ENDgit
