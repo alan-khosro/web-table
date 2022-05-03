@@ -10,9 +10,20 @@ Converts data to a html table. It is
 - configurable by user or by programmer
 - Setting ui and battery included
 
+## DEMO: 
+- Documentation: https://alan-khosro.github.io/web-table/
+- Simple Usage: https://alan-khosro.github.io/web-table/examples/simple-usage.html
+- Usage with options: https://alan-khosro.github.io/web-table/examples/options-usage-example.html
+- Advanced Usage: https://alan-khosro.github.io/web-table/examples/advanced-usage.html
+
+
 
 ### Simple Usage
 Import library and initiate the table with a data url to populate it
+
+- View source code example: https://raw.githubusercontent.com/alan-khosro/web-table/main/examples/simple-usage.html
+
+
 ```html
 <script src="../dist/web-table.js" type="module"></script>
 
@@ -22,11 +33,11 @@ Import library and initiate the table with a data url to populate it
 ></web-table>
 ```
 
-[simple-usage-example](./examples/simple-usage.html)
-
 User can use its built-in `Settings` ui to tweak irs colors, data source, etc.
 
 ### options
+- View source code for options usage: https://raw.githubusercontent.com/alan-khosro/web-table/main/examples/options-usage-example.html
+
 you can pass optional attributes:
 - datatype:
 	- records (default): array of object [{col1: "val1", col2: 2},...]
@@ -62,10 +73,10 @@ you can pass optional attributes:
 	renames="loc,case_rate,new_cases,deaths_rate,new_deaths"
 ></web-table>
 ```
-[usage with options example](./examples/options-usage-example.html)
-
 
 ## Advanced Usage
+- View source code for advanced usage: https://raw.githubusercontent.com/alan-khosro/web-table/main/examples/advanced-usage.js
+
 You can initiate it with no data url and then call its `populate` method in your js file.
 It is useful for advanced use case when you need to prepare your data before populating the table.
 > Please notice that the webcomponent has **no url** when you are populating data through js
@@ -73,16 +84,6 @@ It is useful for advanced use case when you need to prepare your data before pop
 
 ```html
 <simple-table></simple-table>
-```
-
-```js
-
-const columns = ["symbol", "ev", "static value", "growth value", "total value"]
-
-document.querySelector("simple-table").populate(
-	data, 
-	{datatype: "records", columns, renames: ["name1", "name2", "name3", "name4"]
-)
 ```
 
 
