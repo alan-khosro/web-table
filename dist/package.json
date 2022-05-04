@@ -1,0 +1,26 @@
+{
+  "name": "dable",
+  "version": "1.0.1",
+  "description": "web component that converts json or csv to a pretty and flexible html table",
+  "main": "web-table.min.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alan-khosro/web-table.git"
+  },
+  "keywords": [
+    "table",
+    "web-component",
+    "json-table",
+    "web-table",
+    "csv-table"
+  ],
+  "author": "khosro",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alan-khosro/web-table/issues"
+  },
+  "homepage": "https://github.com/alan-khosro/web-table#readme"
+}
