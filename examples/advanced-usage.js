@@ -1,8 +1,8 @@
 
-import { WebTable } from "../dist/web-table.min.js"
+import { WebTable } from "https://cdn.jsdelivr.net/gh/alan-khosro/web-table/dist/web-table.min.js"
 const tableEl = document.querySelector("web-table")
 
-const url = "./cash_flow_components.json"
+const url = "https://cdn.jsdelivr.net/gh/alan-khosro/web-table/examples/cash_flow_components.json"
 const discount_factor = 0.1
 
 fetch(url)
